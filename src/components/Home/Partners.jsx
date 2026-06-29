@@ -86,68 +86,6 @@ export default function Partners() {
 
         </div>
 
-        {/* Statistics */}
-
-        <div className="mt-24">
-
-          <div className="rounded-3xl bg-white/80 backdrop-blur-xl border border-slate-200 shadow-xl p-10">
-
-            <div className="grid md:grid-cols-4 gap-10">
-
-              <div className="text-center">
-
-                <h3 className="text-5xl font-extrabold text-blue-600">
-                  20+
-                </h3>
-
-                <p className="mt-3 text-slate-600">
-                  Payment Platforms Supported
-                </p>
-
-              </div>
-
-              <div className="text-center">
-
-                <h3 className="text-5xl font-extrabold text-blue-600">
-                  99.8%
-                </h3>
-
-                <p className="mt-3 text-slate-600">
-                  Fraud Detection Accuracy
-                </p>
-
-              </div>
-
-              <div className="text-center">
-
-                <h3 className="text-5xl font-extrabold text-blue-600">
-                  {"<"}1s
-                </h3>
-
-                <p className="mt-3 text-slate-600">
-                  Average Detection Time
-                </p>
-
-              </div>
-
-              <div className="text-center">
-
-                <h3 className="text-5xl font-extrabold text-blue-600">
-                  24/7
-                </h3>
-
-                <p className="mt-3 text-slate-600">
-                  Continuous Monitoring
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
       </div>
 
     </section>

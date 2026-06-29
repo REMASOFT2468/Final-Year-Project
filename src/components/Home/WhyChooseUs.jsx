@@ -48,7 +48,7 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="relative py-28 bg-white overflow-hidden">
+    <section className="relative py-10 bg-white overflow-hidden">
 
       {/* Background Decorations */}
 
@@ -117,81 +117,7 @@ export default function WhyChooseUs() {
 
         {/* Bottom Highlight */}
 
-        <div className="mt-24 rounded-3xl bg-gradient-to-r from-blue-600 to-cyan-600 p-12 text-white shadow-2xl">
-
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-
-            <div>
-
-              <h3 className="text-4xl font-bold">
-                Smarter Than Traditional Fraud Detection
-              </h3>
-
-              <p className="mt-6 leading-8 text-blue-100">
-                Traditional security systems depend on static rules that
-                fraudsters can learn and bypass. FraudShield AI adapts
-                continuously by analyzing transaction behavior, user
-                identity, device intelligence, and contextual risk in
-                real time, enabling proactive fraud prevention.
-              </p>
-
-            </div>
-
-            <div className="grid grid-cols-2 gap-6">
-
-              <div className="rounded-2xl bg-white/10 p-6 text-center">
-
-                <h4 className="text-5xl font-bold">
-                  99.8%
-                </h4>
-
-                <p className="mt-2 text-blue-100">
-                  Detection Accuracy
-                </p>
-
-              </div>
-
-              <div className="rounded-2xl bg-white/10 p-6 text-center">
-
-                <h4 className="text-5xl font-bold">
-                  {"<"}1s
-                </h4>
-
-                <p className="mt-2 text-blue-100">
-                  Analysis Speed
-                </p>
-
-              </div>
-
-              <div className="rounded-2xl bg-white/10 p-6 text-center">
-
-                <h4 className="text-5xl font-bold">
-                  24/7
-                </h4>
-
-                <p className="mt-2 text-blue-100">
-                  Live Monitoring
-                </p>
-
-              </div>
-
-              <div className="rounded-2xl bg-white/10 p-6 text-center">
-
-                <h4 className="text-5xl font-bold">
-                  AI
-                </h4>
-
-                <p className="mt-2 text-blue-100">
-                  Adaptive Learning
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
+        
 
       </div>
     </section>

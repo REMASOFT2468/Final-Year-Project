@@ -11,7 +11,7 @@ function App() {
     <>
       <Header />
 
-      <main className="pt-24">
+      <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/demo" element={<Demo />} />

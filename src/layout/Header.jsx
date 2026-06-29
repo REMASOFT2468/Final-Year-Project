@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-15">
 
           {/* Logo */}
           <Link
@@ -23,16 +23,13 @@ export default function Header() {
             <img
               src={logo}
               alt="FraudShield AI Logo"
-              className="w-11 h-11 object-contain"
+              className="w-10 h-10 object-contain"
             />
 
             <div>
               <h1 className="text-xl font-bold text-blue-700">
                 FraudShield AI
               </h1>
-              <p className="text-xs text-gray-500">
-                Secure Payments
-              </p>
             </div>
           </Link>
 
@@ -52,14 +49,6 @@ export default function Header() {
                 Documentation
               </NavLink>
             </nav>
-
-            {/* CTA Button */}
-            <Link
-              to="/demo"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition duration-300 shadow-md"
-            >
-              Request Demo
-            </Link>
 
           </div>
 
@@ -123,14 +112,6 @@ export default function Header() {
               >
                 Documentation
               </NavLink>
-
-              <Link
-                to="/demo"
-                onClick={() => setIsOpen(false)}
-                className="bg-blue-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
-              >
-                Request Demo
-              </Link>
 
             </nav>
 

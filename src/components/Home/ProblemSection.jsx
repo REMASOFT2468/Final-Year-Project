@@ -86,59 +86,6 @@ export default function ProblemSection() {
 
         </div>
 
-        {/* Bottom Callout */}
-
-        <div className="mt-24 rounded-3xl bg-gradient-to-r from-blue-600 to-cyan-600 p-10 shadow-2xl">
-
-          <div className="grid md:grid-cols-2 gap-10 items-center">
-
-            <div>
-
-              <h3 className="text-3xl font-bold text-white">
-                A Smarter Approach to Fraud Prevention
-              </h3>
-
-              <p className="mt-5 text-blue-100 leading-8">
-                Instead of relying solely on predefined rules, FraudShield AI
-                continuously evaluates user behavior, transaction patterns,
-                device intelligence, location, and contextual risk to detect
-                suspicious activities before financial damage occurs.
-              </p>
-
-            </div>
-
-            <div className="grid grid-cols-2 gap-6">
-
-              <div className="rounded-2xl bg-white/10 p-6 text-center">
-
-                <h4 className="text-4xl font-bold text-white">
-                  99.8%
-                </h4>
-
-                <p className="mt-2 text-blue-100">
-                  Detection Accuracy
-                </p>
-
-              </div>
-
-              <div className="rounded-2xl bg-white/10 p-6 text-center">
-
-                <h4 className="text-4xl font-bold text-white">
-                  {"<"}1s
-                </h4>
-
-                <p className="mt-2 text-blue-100">
-                  Risk Assessment
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
       </div>
     </section>
   );

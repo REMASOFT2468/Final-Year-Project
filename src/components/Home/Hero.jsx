@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
-    <section className="bg-gradient-to-br from-slate-50 via-white to-blue-50 pt-32 pb-24">
+    <section className="bg-gradient-to-br from-slate-50 via-white to-blue-50 py-24">
       <div className="max-w-7xl mx-auto px-6">
 
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="flex justify-center">
 
           {/* Left Side */}
 
@@ -13,7 +13,7 @@ export default function Hero() {
 
             {/* Badge */}
 
-            <div className="inline-flex items-center gap-2 rounded-full bg-blue-100 text-blue-700 px-5 py-2 text-sm font-semibold">
+            <div className="inline-flex items-center gap-2 rounded-full bg-blue-100 text-blue-700 px-5 text-sm font-semibold">
 
               <span>🛡️</span>
 
@@ -108,67 +108,6 @@ export default function Hero() {
                 </p>
 
               </div>
-
-            </div>
-
-          </div>
-
-          {/* Right Side */}
-
-          <div>
-
-            <div className="rounded-3xl bg-white shadow-2xl border border-gray-200 p-8">
-
-              <div className="flex justify-between items-center">
-
-                <h2 className="font-bold text-xl">
-                  Live Transaction Analysis
-                </h2>
-
-                <span className="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-semibold">
-                  Live
-                </span>
-
-              </div>
-
-              <div className="mt-8 space-y-6">
-
-                <div className="flex justify-between">
-                  <span>Transaction Amount</span>
-                  <strong>₦850,000</strong>
-                </div>
-
-                <div className="flex justify-between">
-                  <span>Device</span>
-                  <strong>New Android Device</strong>
-                </div>
-
-                <div className="flex justify-between">
-                  <span>Location</span>
-                  <strong>Abuja</strong>
-                </div>
-
-                <div className="flex justify-between">
-                  <span>Behaviour Match</span>
-                  <strong>34%</strong>
-                </div>
-
-                <div className="flex justify-between">
-                  <span>Risk Score</span>
-
-                  <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full font-bold">
-                    92%
-                  </span>
-
-                </div>
-
-              </div>
-
-              <button className="w-full mt-10 bg-red-600 text-white rounded-xl py-4 font-semibold">
-
-                Transaction Blocked
-
-              </button>
 
             </div>
 

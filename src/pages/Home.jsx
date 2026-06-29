@@ -17,12 +17,11 @@ export default function Home() {
       <Partners/>
       <ProblemSection/>
       <WhyChooseUs/>
-      <Features/>
-      <HowItWorks/>
-      <AIRiskScoring/>
+      {/* <Features/> */}
+      {/* <HowItWorks/> */}
+      {/* <AIRiskScoring/> */}
       <SystemArchitecture/>
-      <SecurityLayers/>
-      
+      {/* <SecurityLayers/> */}
     </>
   );
 }
