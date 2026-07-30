@@ -53,7 +53,7 @@ export default function Partners() {
 
   return (
     <section className="relative overflow-hidden py-24 bg-gradient-to-b from-slate-50 via-blue-50 to-white">
-      {/* Background Decorations */}
+     
       <div className="absolute -top-40 -left-40 w-96 h-96 bg-blue-300/20 rounded-full blur-3xl"></div>
       <div className="absolute -bottom-40 -right-40 w-[32rem] h-[32rem] bg-cyan-300/20 rounded-full blur-3xl"></div>
 
