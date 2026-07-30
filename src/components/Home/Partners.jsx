@@ -1,43 +1,52 @@
+import opayImage from '../../assets/images/opayimage.png';
+import palmpayImage from '../../assets/images/palmpayimage.png';
+import moniepointImage from '../../assets/images/moniepointimage.png';
+import kudaImage from '../../assets/images/kudaimage.png';
+import flutterwaveImage from '../../assets/images/flutterwavimage.png';
+import paystackImage from '../../assets/images/paystackimage.png';
+import ubaImage from '../../assets/images/ubaimage.png';
+import gtbankImage from '../../assets/images/gtbankimage.png';
+
 export default function Partners() {
   const companies = [
     { 
       name: "OPay", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OPay_Logo.svg/2560px-OPay_Logo.svg.png",
+      logo: opayImage,
       color: "from-blue-600 to-blue-800"
     },
     { 
       name: "PalmPay", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/PalmPay_Logo.svg/2560px-PalmPay_Logo.svg.png",
+      logo: palmpayImage,
       color: "from-green-500 to-green-700"
     },
     { 
       name: "Moniepoint", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Moniepoint_logo.svg/2560px-Moniepoint_logo.svg.png",
+      logo: moniepointImage,
       color: "from-purple-500 to-purple-700"
     },
     { 
       name: "Kuda", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Kuda_Bank_Logo.svg/2560px-Kuda_Bank_Logo.svg.png",
+      logo: kudaImage,
       color: "from-red-400 to-red-600"
     },
     { 
       name: "Flutterwave", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flutterwave_logo.svg/2560px-Flutterwave_logo.svg.png",
+      logo: flutterwaveImage,
       color: "from-indigo-500 to-indigo-700"
     },
     { 
       name: "Paystack", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Paystack_Logo.svg/2560px-Paystack_Logo.svg.png",
+      logo: paystackImage,
       color: "from-cyan-500 to-blue-600"
     },
     { 
       name: "UBA", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/UBA_Group_logo.svg/2560px-UBA_Group_logo.svg.png",
+      logo: ubaImage,
       color: "from-red-500 to-red-700"
     },
     { 
       name: "GTBank", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/GTBank_Logo.svg/2560px-GTBank_Logo.svg.png",
+      logo: gtbankImage,
       color: "from-orange-500 to-orange-700"
     },
   ];
@@ -51,7 +60,7 @@ export default function Partners() {
       <div className="relative max-w-7xl mx-auto px-6">
         {/* Heading */}
         <div className="text-center">
-          <span className="inline-flex items-center px-5 py-2 rounded-full bg-blue-100 text-blue-700 text-sm font-semibold">
+          <span className="inline-flex items-center px-5 py-2 rounded-full bg-blue-100 text-blue-700 text-sm font-semibold tracking-wide">
             Designed for Modern Financial Platforms
           </span>
           <h2 className="mt-6 text-4xl md:text-5xl font-bold text-slate-900 leading-tight">
@@ -91,26 +100,26 @@ export default function Partners() {
                 flex-col
                 items-center
                 justify-center
-                min-h-[180px]
+                min-h-[200px]
               "
             >
-              <div className="flex items-center justify-center h-20 w-full mb-4">
+              <div className="flex items-center justify-center h-24 w-full mb-4">
                 <img
                   src={company.logo}
                   alt={`${company.name} logo`}
-                  className="max-h-16 max-w-full object-contain transition-all duration-300 group-hover:scale-110"
+                  className="max-h-20 max-w-full object-contain transition-all duration-300 group-hover:scale-110"
                   onError={(e) => {
                     // Fallback if image fails to load
+                    const parent = e.target.parentElement;
+                    const fallback = document.createElement('div');
+                    fallback.className = `flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-r ${company.color} text-white text-3xl font-bold shadow-lg`;
+                    fallback.textContent = company.name.charAt(0);
                     e.target.style.display = 'none';
-                    e.target.parentElement.innerHTML = `
-                      <div class="flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-r ${company.color} text-white text-2xl font-bold">
-                        ${company.name.charAt(0)}
-                      </div>
-                    `;
+                    parent.appendChild(fallback);
                   }}
                 />
               </div>
-              <h3 className="text-lg font-semibold text-slate-700 group-hover:text-blue-600 transition">
+              <h3 className="text-lg font-semibold text-slate-700 group-hover:text-blue-600 transition-colors duration-300">
                 {company.name}
               </h3>
             </div>
