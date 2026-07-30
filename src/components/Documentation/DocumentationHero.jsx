@@ -38,7 +38,7 @@ export default function DocumentationHero() {
 
             <h1 className="mt-8 text-5xl md:text-6xl font-extrabold leading-tight text-white">
 
-              FraudShield AI
+              Rybon
 
               <span className="block text-blue-400">
 
@@ -51,7 +51,7 @@ export default function DocumentationHero() {
             <p className="mt-8 text-lg leading-8 text-slate-300">
 
               This documentation provides a complete technical overview of
-              the FraudShield AI framework, including its architecture,
+              the Rybon framework, including its architecture,
               intelligent fraud detection process, AI risk scoring model,
               security mechanisms, workflow, and expected system performance.
 
@@ -157,7 +157,7 @@ export default function DocumentationHero() {
 
                   <p className="mt-2 text-slate-400">
 
-                    FraudShield AI Technical Guide
+                    Rybon Technical Guide
 
                   </p>
 

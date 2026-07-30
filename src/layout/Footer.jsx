@@ -15,13 +15,13 @@ export default function Footer() {
 
               <img
                 src={logo}
-                alt="FraudShield AI Logo"
+                alt="Rybon Logo"
                 className="w-12 h-12"
               />
 
               <div>
                 <h2 className="text-xl font-bold text-white">
-                  FraudShield AI
+                  Rybon
                 </h2>
 
                 <p className="text-sm text-gray-400">
@@ -118,9 +118,7 @@ export default function Footer() {
 
               <p>Nigeria</p>
 
-              <p>support@fraudshield.ai</p>
-
-              <p>+234 XXX XXX XXXX</p>
+              <p>support@rybon.site</p>
 
             </div>
 
@@ -176,7 +174,7 @@ export default function Footer() {
         <div className="border-t border-slate-800 mt-14 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
 
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} FraudShield AI. All rights reserved.
+            © {new Date().getFullYear()} Rybon. All rights reserved.
           </p>
 
           <p className="text-sm text-gray-500 text-center">

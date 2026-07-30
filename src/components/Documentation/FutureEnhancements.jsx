@@ -20,7 +20,7 @@ export default function FutureEnhancements() {
       title: "Advanced Machine Learning Models",
       color: "bg-blue-600",
       description:
-        "Future versions of FraudShield AI will integrate supervised and unsupervised machine learning models capable of learning from millions of historical transactions to improve fraud prediction accuracy and reduce false positives.",
+        "Future versions of Rybon will integrate supervised and unsupervised machine learning models capable of learning from millions of historical transactions to improve fraud prediction accuracy and reduce false positives.",
     },
     {
       icon: <Cloud size={30} />,
@@ -55,7 +55,7 @@ export default function FutureEnhancements() {
       title: "International Payment Support",
       color: "bg-indigo-600",
       description:
-        "Expand FraudShield AI to support cross-border payments, international merchant verification, and multi-currency fraud detection.",
+        "Expand Rybon to support cross-border payments, international merchant verification, and multi-currency fraud detection.",
     },
     {
       icon: <Fingerprint size={30} />,
@@ -78,7 +78,7 @@ export default function FutureEnhancements() {
       year: "Phase 1",
       title: "Prototype (Current Project)",
       description:
-        "Interactive React-based demonstration of the FraudShield AI framework with intelligent risk scoring, behavioural analysis, and innovative security features.",
+        "Interactive React-based demonstration of the Rybon framework with intelligent risk scoring, behavioural analysis, and innovative security features.",
     },
     {
       year: "Phase 2",
@@ -96,7 +96,7 @@ export default function FutureEnhancements() {
       year: "Phase 4",
       title: "Enterprise Deployment",
       description:
-        "Deploy FraudShield AI across banks, fintech companies, payment processors, and mobile payment platforms throughout Nigeria and beyond.",
+        "Deploy Rybon across banks, fintech companies, payment processors, and mobile payment platforms throughout Nigeria and beyond.",
     },
   ];
 
@@ -125,7 +125,7 @@ export default function FutureEnhancements() {
 
           <p className="mt-8 text-lg leading-8 text-slate-300">
 
-            FraudShield AI has been designed with scalability in mind.
+            Rybon has been designed with scalability in mind.
             Although this project presents a functional framework and MVP,
             numerous enhancements can transform it into a production-ready,
             enterprise-grade fraud detection platform for banks and fintech
@@ -241,7 +241,7 @@ export default function FutureEnhancements() {
 
           <p className="mx-auto mt-8 max-w-5xl text-center text-lg leading-8 text-slate-300">
 
-            The long-term objective of FraudShield AI is to become an
+            The long-term objective of Rybon is to become an
             intelligent, self-learning fraud prevention framework capable
             of protecting banks, fintech companies, payment gateways,
             e-commerce platforms, and digital financial services.

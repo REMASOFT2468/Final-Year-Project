@@ -87,7 +87,7 @@ export default function TechnologiesUsed() {
 
           <p className="mt-6 text-lg leading-8 text-slate-600">
 
-            FraudShield AI is built using modern web technologies and
+            FRybon is built using modern web technologies and
             intelligent security concepts. Each technology was selected
             to provide high performance, scalability, maintainability,
             and an excellent user experience while demonstrating the
@@ -154,7 +154,7 @@ export default function TechnologiesUsed() {
 
           <p className="mx-auto mt-8 max-w-5xl text-center text-lg leading-8 text-slate-300">
 
-            The proposed FraudShield AI framework emphasizes modularity,
+            The proposed Rybon framework emphasizes modularity,
             scalability, security, and maintainability. Although this
             project is implemented as an MVP without a backend, its
             architecture is designed to support future integration with

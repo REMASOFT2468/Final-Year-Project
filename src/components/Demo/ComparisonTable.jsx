@@ -88,7 +88,7 @@ export default function ComparisonTable() {
 
           <h2 className="mt-6 text-5xl font-bold text-slate-900">
 
-            Why FraudShield AI Stands Out
+            Why Rybon Stands Out
 
           </h2>
 
@@ -96,7 +96,7 @@ export default function ComparisonTable() {
 
             Traditional fraud detection systems rely heavily on static rules,
             passwords, OTP verification, and predefined thresholds.
-            FraudShield AI introduces adaptive intelligence, behavioural
+            Rybon introduces adaptive intelligence, behavioural
             analytics, and innovative security mechanisms to improve fraud
             detection accuracy while reducing customer friction.
 
@@ -125,7 +125,7 @@ export default function ComparisonTable() {
                   </th>
 
                   <th className="px-8 py-5 text-center bg-blue-700">
-                    FraudShield AI
+                    Rybon
                   </th>
 
                 </tr>
@@ -210,7 +210,7 @@ export default function ComparisonTable() {
 
             <p className="mt-4 text-slate-600 leading-7">
 
-              FraudShield AI evaluates behaviour, device trust,
+              Rybon evaluates behaviour, device trust,
               contextual information, and historical activity instead of
               relying only on static security rules.
 
@@ -272,7 +272,7 @@ export default function ComparisonTable() {
 
           <h3 className="text-4xl font-bold text-white">
 
-            FraudShield AI Delivers a Smarter Layer of Protection
+            Rybon Delivers a Smarter Layer of Protection
 
           </h3>
 
@@ -282,7 +282,7 @@ export default function ComparisonTable() {
             adaptive authentication, device intelligence, and three
             innovative security mechanisms—Trusted Circle Approval,
             Dual Device Confirmation, and the AI Behavioural Challenge—
-            FraudShield AI provides a more proactive and intelligent
+            Rybon provides a more proactive and intelligent
             approach to fraud prevention than conventional rule-based systems.
 
           </p>

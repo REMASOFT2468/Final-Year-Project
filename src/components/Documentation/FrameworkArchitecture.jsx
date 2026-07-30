@@ -15,7 +15,7 @@ export default function FrameworkArchitecture() {
       icon: <Server size={30} />,
       title: "1. User & Payment Platform",
       description:
-        "Customers initiate online payments through banking applications, fintech platforms, mobile wallets, or e-commerce payment gateways. Every transaction request enters the FraudShield AI framework before payment authorization.",
+        "Customers initiate online payments through banking applications, fintech platforms, mobile wallets, or e-commerce payment gateways. Every transaction request enters the Rybon framework before payment authorization.",
       color: "bg-blue-600",
     },
     {
@@ -80,13 +80,13 @@ export default function FrameworkArchitecture() {
 
           <h2 className="mt-6 text-5xl font-bold text-white">
 
-            FraudShield AI Architecture
+            RybonArchitecture
 
           </h2>
 
           <p className="mt-8 text-lg leading-8 text-slate-300">
 
-            FraudShield AI follows a layered intelligent architecture that
+            Rybonfollows a layered intelligent architecture that
             processes every online payment transaction through data
             collection, artificial intelligence, adaptive risk scoring,
             intelligent security mechanisms, automated decision making,

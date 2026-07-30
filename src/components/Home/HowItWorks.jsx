@@ -60,7 +60,7 @@ export default function HowItWorks() {
           </span>
 
           <h2 className="mt-6 text-4xl md:text-5xl font-bold text-slate-900">
-            How FraudShield AI
+            How Rybon
             <span className="text-blue-600"> Protects Every Transaction</span>
           </h2>
 
@@ -130,7 +130,7 @@ export default function HowItWorks() {
 
               <p className="mt-6 leading-8 text-blue-100">
                 Instead of relying on static security rules,
-                FraudShield AI evaluates every transaction using
+                Rybon evaluates every transaction using
                 behavioral analytics, machine learning, device
                 intelligence, transaction history, and contextual
                 information before making an approval decision.

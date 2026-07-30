@@ -147,7 +147,7 @@ const handleReset = () => {
 
           <p className="mt-6 text-lg text-slate-600 leading-8">
 
-            Enter transaction details below and watch how FraudShield AI
+            Enter transaction details below and watch how Rybon
             analyzes the payment, calculates fraud risk, and makes an
             intelligent decision in real time.
 
@@ -421,7 +421,7 @@ const handleReset = () => {
     <li>• Select a device.</li>
     <li>• Choose a transaction type.</li>
     <li>• Click Analyze Transaction.</li>
-    <li>• FraudShield AI calculates the fraud risk.</li>
+    <li>• Rybon calculates the fraud risk.</li>
   </ul>
 </div>
 </form>
@@ -441,7 +441,7 @@ const handleReset = () => {
 
     <h3 className="font-bold">
 
-      FraudShield AI v2.0
+      Rybon v2.0
 
     </h3>
 
@@ -572,7 +572,7 @@ const handleReset = () => {
 
     <p className="mt-3 leading-7 text-slate-300">
 
-      FraudShield AI evaluated the transaction using multiple
+      Rybon evaluated the transaction using multiple
       intelligent parameters including transaction amount,
       customer behaviour, device trust level,
       geographical location, payment type,

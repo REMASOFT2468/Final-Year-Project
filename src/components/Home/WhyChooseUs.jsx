@@ -63,7 +63,7 @@ export default function WhyChooseUs() {
         <div className="text-center max-w-3xl mx-auto">
 
           <span className="inline-flex items-center px-5 py-2 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm">
-            Why Choose FraudShield AI
+            Why Choose Rybon
           </span>
 
           <h2 className="mt-6 text-4xl md:text-5xl font-bold text-slate-900 leading-tight">
@@ -72,7 +72,7 @@ export default function WhyChooseUs() {
           </h2>
 
           <p className="mt-6 text-lg text-slate-600 leading-8">
-            FraudShield AI combines artificial intelligence, behavioral
+            Rybon combines artificial intelligence, behavioral
             analytics, adaptive risk scoring, and continuous monitoring
             into a single intelligent framework that helps financial
             institutions prevent fraud before financial losses occur.

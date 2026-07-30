@@ -98,7 +98,7 @@ export default function RiskFactorsTable() {
 
           <p className="mt-6 text-lg leading-8 text-slate-600">
 
-            FraudShield AI evaluates every payment using multiple
+            Rybon evaluates every payment using multiple
             intelligent indicators. Each factor contributes to the
             overall fraud probability before the final transaction
             decision is made.
@@ -269,7 +269,7 @@ export default function RiskFactorsTable() {
 
             <p className="mt-4 text-slate-600 leading-7">
 
-              FraudShield AI continuously learns from new transactions,
+              Rybon continuously learns from new transactions,
               improving detection accuracy and reducing false positives.
 
             </p>

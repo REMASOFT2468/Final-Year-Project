@@ -87,7 +87,7 @@ export default function SecurityLayers() {
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-slate-600">
-            FraudShield AI protects every transaction using multiple
+            Rybon protects every transaction using multiple
             intelligent security layers. Instead of relying on a single
             rule, the framework combines AI, behavioral analytics,
             contextual intelligence, and adaptive authentication to stop

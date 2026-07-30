@@ -88,7 +88,7 @@ export default function Features() {
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-slate-600">
-            FraudShield AI combines artificial intelligence, behavioral
+           Rybon combines artificial intelligence, behavioral
             analytics, contextual intelligence, and continuous monitoring
             into a unified fraud detection framework that protects digital
             payment platforms against evolving cyber threats.

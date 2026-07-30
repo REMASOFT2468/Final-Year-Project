@@ -19,7 +19,7 @@ export default function SecurityFeatures() {
       color: "bg-blue-600",
       badge: "Innovation",
       description:
-        "When a transaction is classified as medium or high risk, FraudShield AI can request approval from trusted family members or previously designated contacts before authorizing the payment. This introduces a human verification layer that significantly reduces account takeover fraud.",
+        "When a transaction is classified as medium or high risk, Rybon can request approval from trusted family members or previously designated contacts before authorizing the payment. This introduces a human verification layer that significantly reduces account takeover fraud.",
     },
     {
       icon: <Smartphone size={32} />,
@@ -67,7 +67,7 @@ export default function SecurityFeatures() {
       color: "bg-indigo-600",
       badge: "Security",
       description:
-        "FraudShield AI intelligently decides when additional verification is required based on transaction risk rather than requesting verification for every payment.",
+        "Rybon intelligently decides when additional verification is required based on transaction risk rather than requesting verification for every payment.",
     },
     {
       icon: <Lock size={32} />,
@@ -123,7 +123,7 @@ export default function SecurityFeatures() {
 
           <p className="mt-8 text-lg leading-8 text-slate-600">
 
-            FraudShield AI combines artificial intelligence, behavioural
+            Rybon combines artificial intelligence, behavioural
             analytics, adaptive authentication, and innovative security
             mechanisms to create multiple layers of protection for online
             payment platforms. Instead of depending on static rules, the
@@ -190,7 +190,7 @@ export default function SecurityFeatures() {
 
           <p className="mx-auto mt-6 max-w-4xl text-center text-lg leading-8 text-blue-100">
 
-            FraudShield AI automatically selects the most appropriate
+            Rybon automatically selects the most appropriate
             security response according to the calculated fraud risk score,
             ensuring that customers experience minimal friction while
             maintaining maximum protection.
@@ -239,14 +239,14 @@ export default function SecurityFeatures() {
 
           <h3 className="mt-6 text-4xl font-bold text-white">
 
-            Why FraudShield AI Is Different
+            Why Rybon Is Different
 
           </h3>
 
           <p className="mx-auto mt-6 max-w-5xl text-lg leading-8 text-slate-300">
 
             Traditional fraud detection systems primarily depend on
-            predefined rules and one-time passwords. FraudShield AI
+            predefined rules and one-time passwords. Rybon
             introduces adaptive intelligence through behavioural analysis,
             Trusted Circle Approval, Dual Device Confirmation, and AI
             Behavioural Challenges. These innovations create a flexible,

@@ -49,7 +49,7 @@ export default function ProjectOverview() {
 
           <p className="mt-6 text-lg leading-8 text-slate-600">
 
-            FraudShield AI is an intelligent fraud detection framework
+            Rybon is an intelligent fraud detection framework
             designed to enhance the security of online payment platforms
             in Nigeria. The framework combines Artificial Intelligence,
             behavioural analytics, adaptive authentication, device
@@ -118,7 +118,7 @@ export default function ProjectOverview() {
 
             <p className="mt-6 leading-8 text-slate-600">
 
-              FraudShield AI introduces a multi-layer intelligent security
+              Rybon introduces a multi-layer intelligent security
               framework capable of analysing customer behaviour, transaction
               history, device information, geolocation, contextual data,
               and transaction patterns in real time. The framework
@@ -229,7 +229,7 @@ export default function ProjectOverview() {
 
           <p className="max-w-5xl mx-auto mt-8 text-lg leading-8 text-slate-300">
 
-            FraudShield AI provides an intelligent and proactive approach
+            Rybon provides an intelligent and proactive approach
             to fraud prevention by combining Artificial Intelligence,
             behavioural analytics, contextual risk assessment, and
             innovative authentication mechanisms. Unlike conventional

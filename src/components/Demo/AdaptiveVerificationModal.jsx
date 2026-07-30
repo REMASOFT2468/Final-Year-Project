@@ -100,7 +100,7 @@ export default function AdaptiveVerificationModal({
             </h2>
 
             <p className="mt-3 opacity-90">
-              FraudShield AI Verification Complete
+              Rybon Verification Complete
             </p>
           </div>
 
@@ -220,7 +220,7 @@ export default function AdaptiveVerificationModal({
             />
 
             <h2 className="mt-6 text-3xl font-bold">
-              FraudShield AI
+              Rybon
             </h2>
 
             <p className="mt-3 text-slate-600">
@@ -254,7 +254,7 @@ export default function AdaptiveVerificationModal({
 
             <div>
               <h2 className="text-2xl font-bold text-white">
-                FraudShield AI
+                Rybon
               </h2>
 
               <p className="text-blue-100">
@@ -291,7 +291,7 @@ export default function AdaptiveVerificationModal({
               </h3>
 
               <p className="mt-2 text-slate-600">
-                FraudShield AI detected unusual activity.
+                Rybon detected unusual activity.
                 Please complete behavioural verification
                 before this payment is approved.
               </p>

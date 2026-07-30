@@ -62,14 +62,14 @@ export default function FrameworkOverview() {
           </span>
 
           <h2 className="mt-6 text-4xl md:text-5xl font-bold text-slate-900">
-            How FraudShield AI
+            How Rybon
             <span className="text-blue-600">
               {" "}Protects Every Transaction
             </span>
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-slate-600">
-            FraudShield AI combines Artificial Intelligence, behavioral
+            Rybon combines Artificial Intelligence, behavioral
             analytics, device intelligence, and real-time monitoring to
             identify fraudulent activities before money leaves the customer's
             account. Every payment request passes through multiple intelligent

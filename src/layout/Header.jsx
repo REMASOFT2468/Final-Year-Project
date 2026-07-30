@@ -18,17 +18,17 @@ export default function Header() {
           {/* Logo */}
           <Link
             to="/"
-            className="flex items-center gap-3"
+            className="flex items-center gap-2"
           >
             <img
               src={logo}
-              alt="FraudShield AI Logo"
+              alt="Rybon Logo"
               className="w-10 h-10 object-contain"
             />
 
             <div>
               <h1 className="text-xl font-bold text-blue-700">
-                FraudShield AI
+                Rybon
               </h1>
             </div>
           </Link>
@@ -44,10 +44,10 @@ export default function Header() {
               <NavLink to="/demo" className={navLinkClass}>
                 Demo
               </NavLink>
-
+{/* 
               <NavLink to="/documentation" className={navLinkClass}>
                 Documentation
-              </NavLink>
+              </NavLink> */}
             </nav>
 
           </div>
@@ -104,14 +104,14 @@ export default function Header() {
               >
                 Demo
               </NavLink>
-
+{/* 
               <NavLink
                 to="/documentation"
                 onClick={() => setIsOpen(false)}
                 className={navLinkClass}
               >
                 Documentation
-              </NavLink>
+              </NavLink> */}
 
             </nav>
 

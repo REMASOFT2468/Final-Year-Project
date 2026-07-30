@@ -50,7 +50,7 @@ export default function WorkflowDiagram() {
       title: "6. Continuous Learning",
       color: "bg-red-600",
       description:
-        "Every completed transaction becomes new training data, allowing FraudShield AI to improve detection accuracy over time.",
+        "Every completed transaction becomes new training data, allowing Rybon to improve detection accuracy over time.",
     },
   ];
 
@@ -78,7 +78,7 @@ export default function WorkflowDiagram() {
           <p className="mt-6 text-lg leading-8 text-slate-300">
 
             Every payment transaction follows an intelligent workflow before
-            reaching the final decision. FraudShield AI analyses multiple
+            reaching the final decision. Rybon analyses multiple
             security layers in real time to identify fraudulent activities
             before financial loss occurs.
 

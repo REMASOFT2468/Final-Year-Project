@@ -74,7 +74,7 @@ export default function RiskScoringAlgorithm() {
       color: "text-yellow-400",
       bg: "bg-yellow-500/10",
       action:
-        "FraudShield AI activates Trusted Circle Approval, Dual Device Confirmation, or AI Behavioural Challenge before approval.",
+        "Rybon activates Trusted Circle Approval, Dual Device Confirmation, or AI Behavioural Challenge before approval.",
     },
     {
       title: "High Risk",
@@ -111,7 +111,7 @@ export default function RiskScoringAlgorithm() {
 
           <p className="mt-8 text-lg leading-8 text-slate-600">
 
-            FraudShield AI evaluates every transaction using multiple
+            Rybon evaluates every transaction using multiple
             intelligent indicators rather than relying on fixed security
             rules. Each factor contributes to an overall fraud risk score,
             enabling the framework to make fast, accurate, and adaptive
@@ -357,7 +357,7 @@ export default function RiskScoringAlgorithm() {
           <p className="mx-auto mt-6 max-w-5xl text-lg leading-8 text-slate-300">
 
             Unlike traditional rule-based fraud detection systems,
-            FraudShield AI continuously evaluates multiple behavioural,
+            Rybon continuously evaluates multiple behavioural,
             contextual, and transactional indicators to calculate a
             dynamic fraud risk score. This adaptive approach improves
             fraud detection accuracy, reduces false positives, and

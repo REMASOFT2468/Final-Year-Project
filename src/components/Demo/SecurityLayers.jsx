@@ -27,7 +27,7 @@ export default function SecurityLayers() {
       subtitle: "AI Behavioural Challenge",
       color: "bg-purple-600",
       description:
-        "Instead of asking every customer for the same verification, FraudShield AI dynamically generates personalised identity challenges based on normal customer behaviour. Genuine users answer naturally while fraudsters struggle to respond correctly.",
+        "Instead of asking every customer for the same verification, Rybon dynamically generates personalised identity challenges based on normal customer behaviour. Genuine users answer naturally while fraudsters struggle to respond correctly.",
     },
     {
       icon: <Smartphone size={34} />,
@@ -43,7 +43,7 @@ export default function SecurityLayers() {
       subtitle: "Innovative Protection",
       color: "bg-green-600",
       description:
-        "Customers can nominate trusted family members or trusted contacts. If FraudShield AI detects an unusually high-risk transaction, a secure approval request is sent to one or more trusted contacts before funds are released.",
+        "Customers can nominate trusted family members or trusted contacts. If Rybon detects an unusually high-risk transaction, a secure approval request is sent to one or more trusted contacts before funds are released.",
     },
     {
       icon: <Bell size={34} />,
@@ -88,7 +88,7 @@ export default function SecurityLayers() {
 
           <p className="mt-6 text-lg leading-8 text-slate-300">
 
-            FraudShield AI protects every online payment using multiple
+            Rybon protects every online payment using multiple
             intelligent security layers. Instead of relying on passwords
             or OTP verification alone, the framework continuously analyses
             customer behaviour, device trust, contextual information and
@@ -145,7 +145,7 @@ export default function SecurityLayers() {
 
           <h3 className="text-center text-4xl font-bold text-white">
 
-            Innovative Security Features Proposed by FraudShield AI
+            Innovative Security Features Proposed by Rybon
 
           </h3>
 

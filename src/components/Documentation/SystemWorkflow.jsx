@@ -25,7 +25,7 @@ export default function SystemWorkflow() {
       title: "2. Data Collection",
       color: "bg-cyan-600",
       description:
-        "FraudShield AI securely collects transaction amount, device fingerprint, IP address, geolocation, transaction history, behavioural patterns, login history, and contextual information.",
+        "Rybon securely collects transaction amount, device fingerprint, IP address, geolocation, transaction history, behavioural patterns, login history, and contextual information.",
     },
     {
       icon: <BrainCircuit size={30} />,
@@ -53,7 +53,7 @@ export default function SystemWorkflow() {
       title: "6. Continuous Learning",
       color: "bg-red-600",
       description:
-        "Every completed transaction is stored for future behavioural learning, enabling FraudShield AI to improve its detection accuracy over time.",
+        "Every completed transaction is stored for future behavioural learning, enabling Rybon to improve its detection accuracy over time.",
     },
   ];
 
@@ -89,7 +89,7 @@ export default function SystemWorkflow() {
           <p className="mt-8 text-lg leading-8 text-slate-300">
 
             Every online payment is analysed through an intelligent,
-            multi-stage workflow before authorization. FraudShield AI
+            multi-stage workflow before authorization. Rybon
             evaluates behavioural patterns, contextual information,
             device intelligence, and dynamic risk factors to ensure
             secure and reliable payment processing.
@@ -184,7 +184,7 @@ export default function SystemWorkflow() {
 
           <p className="mx-auto mt-6 max-w-4xl text-center text-lg leading-8 text-blue-100">
 
-            After analysing every transaction, FraudShield AI assigns a
+            After analysing every transaction, Rybon assigns a
             dynamic fraud risk score and automatically determines the
             most appropriate security response.
 

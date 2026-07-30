@@ -74,7 +74,7 @@ export default function AIRiskScoring() {
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-slate-300">
-            FraudShield AI evaluates multiple security indicators in
+            Rybon evaluates multiple security indicators in
             real time before assigning a fraud risk score. Instead of
             relying on static rules, the framework continuously learns
             from user behavior and transaction history to make smarter
@@ -159,7 +159,7 @@ export default function AIRiskScoring() {
               <p className="mt-6 text-blue-100 leading-8">
 
                 After evaluating all available security indicators,
-                FraudShield AI combines every score into a final
+                Rybon combines every score into a final
                 fraud probability. The framework then determines
                 the safest action before the payment is processed.
 
