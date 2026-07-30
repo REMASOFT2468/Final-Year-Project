@@ -1,4 +1,4 @@
-import DocumentationHero from "../components/documentation/DocumentationHero";
+import DocumentationHero from "../components/Documentation/DocumentationHero";
 import  ProjectOverview from "../components/Documentation/ProjectOverview";
 import  FrameworkArchitecture from "../components/Documentation/FrameworkArchitecture";
 import TechnologiesUsed from "../components/Documentation/TechnologiesUsed";

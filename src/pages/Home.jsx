@@ -1,4 +1,4 @@
-import Hero from "../components/home/Hero";
+import Hero from "../components/Home/Hero";
 import Partners from "../components/Home/Partners";
 import ProblemSection from "../components/Home/ProblemSection";
 import WhyChooseUs from "../components/Home/WhyChooseUs";
