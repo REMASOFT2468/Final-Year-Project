@@ -1,4 +1,4 @@
-import DemoHero from "../components/demo/DemoHero";
+import DemoHero from "../components/Demo/DemoHero";
 
 
 export default function Demo() {
