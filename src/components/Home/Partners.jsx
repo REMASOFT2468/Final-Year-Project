@@ -1,4 +1,4 @@
-import opayImage from '../../assets/images/opayimage.png';
+import opay from '../../assets/images/opayimage.png';
 import palmpayImage from '../../assets/images/palmpayimage.png';
 import moniepointImage from '../../assets/images/moniepointimage.png';
 import kudaImage from '../../assets/images/kudaimage.png';
@@ -11,7 +11,7 @@ export default function Partners() {
   const companies = [
     { 
       name: "OPay", 
-      logo: opayImage,
+      logo: opay,
       color: "from-blue-600 to-blue-800"
     },
     { 
