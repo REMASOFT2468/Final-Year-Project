@@ -5,7 +5,7 @@ import kudaImage from '../../assets/images/kudaimage.png';
 import flutterwaveImage from '../../assets/images/flutterwavimage.png';
 import paystackImage from '../../assets/images/paystackimage.png';
 import ubaImage from '../../assets/images/ubaimage.png';
-import gtbankImage from '../../assets/images/gtbankimage.png';
+import gtbankImage from '../../assets/images/GTBankimage.png';
 
 export default function Partners() {
   const companies = [
